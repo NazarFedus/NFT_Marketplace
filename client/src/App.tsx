@@ -20,10 +20,7 @@ function App() {
           <Route path='/guide/1' element={<Onboarding1 />}></Route>
           <Route path='/guide/2' element={<Onboarding2 />}></Route>
           <Route path='/guide/3' element={<Onboarding3 />}></Route>
-
           <Route path='/start' element={<StartScreen />}></Route>
-
-
           <Route path='/' element={<Home />}></Route>
         </Routes>
       </Router>

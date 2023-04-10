@@ -1,17 +1,19 @@
 import ButtonLink from "../../../components/buttonLink/ButtonLink";
 import "./styles.css";
+import { NavLink } from "react-router-dom";
 
 import arrow from "./arrow.svg";
-import logo from './../img/Logo.svg'
-import ellipseBlue from './../img/Ellipse 13.svg'
-import ellipseWhite from './../img/Ellipse 12.svg'
-
+import logo from "./../img/Logo.svg";
+import ellipseBlue from "./../img/Ellipse 13.svg";
+import ellipseWhite from "./../img/Ellipse 12.svg";
 
 export default function StartScreen() {
   return (
     <div>
       <div className="startScreen__logowrapper">
-          <div className="logo"><img src={logo} alt="" /></div>
+        <div className="logo">
+          <img src={logo} alt="" />
+        </div>
       </div>
       <img src={ellipseBlue} className="ellipseBlue" alt="" />
       <img src={ellipseWhite} className="ellipseWhite" alt="" />
@@ -26,7 +28,10 @@ export default function StartScreen() {
           </p>
         </div>
         <div className="wrapp-buttons">
-          <ButtonLink title="Connect with Wallet"></ButtonLink>
+          <NavLink to="/connect-wallet">
+            <ButtonLink title="Connect with Wallet"></ButtonLink>
+          </NavLink>
+
           <button className="btn">
             <img src={arrow} className="arrow"></img>
           </button>
