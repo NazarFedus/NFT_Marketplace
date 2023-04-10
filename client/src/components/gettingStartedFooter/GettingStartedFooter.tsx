@@ -1,3 +1,4 @@
+import ButtonLink from "../buttonLink/ButtonLink";
 import Dots from "./dots/Dots";
 import "./styles.css"
 
@@ -20,7 +21,7 @@ export default function (props: IFooter){
                     <Dots active={props.active}/>
 
                     <NavLink to={props.active < 3 ? `/guide/${props.active+1}` : `/start`}>
-                         <button className='btn-link' >Next</button>
+                         <ButtonLink title='Next'></ButtonLink>
                     </NavLink>
                </div>
           </div>

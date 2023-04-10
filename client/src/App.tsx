@@ -3,9 +3,11 @@ import './styles/main.css'
 import './styles/reset.css'
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
 import Onboarding1 from './pages/gettingStarted/gettingStarted1/Onboarding-1';
 import Onboarding2 from './pages/gettingStarted/gettingStarted2/Onboarding-2';
 import Onboarding3 from './pages/gettingStarted/gettingStarted3/Onboarding-3';
+import StartScreen from './pages/gettingStarted/startScreen/StartScreen';
 
 import Home from './pages/home/Home';
 
@@ -19,7 +21,7 @@ function App() {
           <Route path='/guide/2' element={<Onboarding2 />}></Route>
           <Route path='/guide/3' element={<Onboarding3 />}></Route>
 
-          <Route path='/start' element={<Onboarding3 />}></Route>
+          <Route path='/start' element={<StartScreen />}></Route>
 
 
           <Route path='/' element={<Home />}></Route>

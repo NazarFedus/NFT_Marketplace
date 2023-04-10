@@ -1,0 +1,17 @@
+.btn-link{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     padding: 16px;
+     gap: 10px;
+     width: 312px;
+     height: 49px;
+     background: #1D9BF0;
+     border-radius: 10px;
+
+     color: #F5F8FA;
+     font-family: 'Gilroy-Bold';
+     font-size: 14px;
+     line-height: 120%;
+}
