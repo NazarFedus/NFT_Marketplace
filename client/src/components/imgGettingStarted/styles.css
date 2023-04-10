@@ -1,0 +1,10 @@
+.wrapper{
+     display: flex;
+     width: 100%;
+     justify-content: center;
+     padding-top: 122px;
+     position: absolute;
+}
+img{
+     max-width: 207px;
+}

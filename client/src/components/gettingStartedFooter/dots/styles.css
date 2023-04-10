@@ -1,0 +1,24 @@
+.dots-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  border-radius: 50%;
+  background: #1C212B;
+  animation: bounce 0.5s infinite alternate;
+}
+
+.active{
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  border-radius: 50%;
+  background: #1C212B;
+  background-color: #ccc;
+}
+

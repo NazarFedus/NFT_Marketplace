@@ -1,0 +1,8 @@
+.getstarted__content{
+     display: flex;
+     flex-direction: column;
+     gap: 50px;
+     position: absolute;
+     top: 433px;
+     padding: 20px;
+}
