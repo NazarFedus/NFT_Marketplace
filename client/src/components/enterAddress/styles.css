@@ -1,0 +1,13 @@
+.wrapper{
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     padding: 44px 24px;
+     gap: 40px;
+
+     width: 360px;
+     height: 278px;
+
+     background: #15202B;
+     border-radius: 30px 30px 0px 0px;
+}
