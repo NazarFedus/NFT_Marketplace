@@ -19,6 +19,10 @@ export default function ConnectTheWallet() {
   const {validate} = useValidation();
 
   function inputAddress(venue: string) {
+    document.body.classList.add('disabled')
+    console.log(document.getElementById('footer-active'));
+    document.querySelector('.footer-active')?.classList.add('active')
+
     if(venue === 'MetaMask') setStatus('MetaMask');
     if(venue === 'Trust Wallet') setStatus('MetaMask');
     if(venue === 'Ethereum address') setStatus('MetaMask');
@@ -38,9 +42,9 @@ export default function ConnectTheWallet() {
             <img src={arrow} className="arrowback" alt="arrowback" />
           </button>
         </NavLink>
-        <div className="wrapperlogo">
+        {!status && <div className="wrapperlogo">
           <img src={logo} alt="Logo" className="connectWallet__logo" />
-        </div>
+        </div>}
       </header>
 
       <main>

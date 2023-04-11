@@ -117,6 +117,7 @@ footer{
 
      background: #15202B;
      border-radius: 30px 30px 0px 0px;
+     pointer-events: initial;
 }
 
 .input__form{
@@ -152,4 +153,8 @@ input{
      width: 100%;
 
      color: #F5F8FA;
+}
+.disabled{
+     background: rgba(37, 51, 65, 0.5);
+     pointer-events: none;
 }
