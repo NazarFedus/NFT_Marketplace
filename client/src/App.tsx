@@ -10,6 +10,7 @@ import Onboarding3 from './pages/gettingStarted/gettingStarted3/Onboarding-3';
 import StartScreen from './pages/gettingStarted/startScreen/StartScreen';
 
 import Home from './pages/home/Home';
+import ConnectTheWallet from './pages/connectWallet/ConnectTheWallet';
 
 function App() {
 
@@ -21,6 +22,10 @@ function App() {
           <Route path='/guide/2' element={<Onboarding2 />}></Route>
           <Route path='/guide/3' element={<Onboarding3 />}></Route>
           <Route path='/start' element={<StartScreen />}></Route>
+
+
+          <Route path='/connect-wallet' element={<ConnectTheWallet />}></Route>
+
           <Route path='/' element={<Home />}></Route>
         </Routes>
       </Router>

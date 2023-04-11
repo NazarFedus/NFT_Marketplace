@@ -1,3 +1,15 @@
 body{
      background: #15202B;
 }
+h1{
+     font-family: 'Gilroy-Bold';
+     font-size: 34px;
+     line-height: 120%;
+     color: #FFFFFF;
+}
+.arrowback{
+     transform: rotate(180deg);
+     width: 32px;
+     height: 32px;
+     flex: 0 0 auto;
+}

@@ -2,7 +2,7 @@ import ButtonLink from "../../../components/buttonLink/ButtonLink";
 import "./styles.css";
 import { NavLink } from "react-router-dom";
 
-import arrow from "./arrow.svg";
+import arrow from "./../../../img/arrow.svg";
 import logo from "./../img/Logo.svg";
 import ellipseBlue from "./../img/Ellipse 13.svg";
 import ellipseWhite from "./../img/Ellipse 12.svg";

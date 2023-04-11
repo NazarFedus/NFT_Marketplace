@@ -1,0 +1,108 @@
+h1{
+     font-family: 'Gilroy-Bold', serif;
+     font-size: 34px;
+     line-height: 120%;
+     color: #FFFFFF;
+}
+
+p{
+     font-family: 'Gilroy-Medium';
+     font-size: 16px;
+     line-height: 120%;
+     text-align: center;
+     color: #AAB8C2;
+}
+span{
+     color: #F5F8FA;
+}
+
+.connectWallet{
+     display: flex;
+     flex-direction: column;
+     height: 100vh;
+}
+
+.connectWallet__header{
+     position: absolute;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-between;
+     width: 100%;
+     padding: 32px 24px;
+}
+
+.wrapperlogo{
+     display: flex;
+     justify-content: center;
+     width: 100%;
+}
+
+.connectWallet__topcontent{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     padding: 0px;
+     gap: 16px;
+}
+
+main{
+     display: flex;
+     position: relative;
+     bottom: 155px;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     gap: 30px;
+     padding: 19px 24px;
+}
+
+.main__frame{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding-top: 425px;
+}
+
+.icon{
+     width: 32px;
+     height: 32px;
+}
+.main__tablist{
+     padding: 0px 24px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     gap: 16px;
+}
+.tab{
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: flex-start;
+     gap: 12px;
+     background: #253341;
+     border-radius: 10px;
+     padding: 12px 12px 12px 24px;
+     cursor: pointer;
+
+     width: 312px;
+     height: 56px;
+}
+
+.tab:hover{
+     background: #AAB8C2;
+     transition: 0.5s;
+     color: #253341;
+}
+footer{
+     position: absolute;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 100%;
+     bottom: 0px;
+     padding-bottom: 20px;
+}
