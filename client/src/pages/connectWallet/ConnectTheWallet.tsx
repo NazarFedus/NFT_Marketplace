@@ -16,7 +16,7 @@ export default function ConnectTheWallet() {
     <div className="connectWallet">
       <header className="connectWallet__header">
         <NavLink to="/start">
-          <button style={{zIndex: '1000'}}>
+          <button>
             <img src={arrow} className="arrowback" alt="arrowback" />
           </button>
         </NavLink>
